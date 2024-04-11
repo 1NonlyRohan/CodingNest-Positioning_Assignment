@@ -9,10 +9,11 @@
     font-family: Math;
 }
 
-.head-content{
+.head-content h1{
     position: absolute;
     top: 30px;
     left: 50px;
+    font-size: 20px;
 }
 
 .navbar{
@@ -29,6 +30,10 @@
 .navbar li a{
     color: black;
     font-size: 20px;
+}
+
+.navbar li a:hover{
+    color: darkgrey;
 }
 
 .btn-1 button{
@@ -98,3 +103,50 @@
     color: white;
     padding: 5px;
 }
+
+.poster-2 h1 {
+    font-size: 20px;
+    position: absolute;
+    top: 600px;
+    left: 40px;
+}
+
+.poster-images {
+    position: absolute;
+    top: 630px;
+    left: 35px;
+}
+
+.poster-images h1{
+    position: absolute;
+    top: 240px;
+    left: 0px;
+}
+
+.poster-images #p5,#p7,#p9{
+    position: absolute;
+    top: 270px;
+    left: 0px;
+}
+
+.poster-images #p6,#p8,#p10{
+    position: absolute;
+    top: 303px;
+    left: 0px;
+}
+
+.Post-1-content{
+    position: absolute;
+    left: 0px;
+}
+
+.Post-2-content{
+    position: absolute;
+    left: 450px;
+}
+
+.Post-3-content{
+    position: absolute;
+    left: 850px;
+}
+
